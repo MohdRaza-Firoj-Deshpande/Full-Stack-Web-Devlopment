@@ -1,59 +1,69 @@
 
 <head>
-<link rel="icon" href="https://learning.edureka.co/favicon.ico"/>
-</head>
-"drop down menu Or Select boX"-->
-
-
-<html>
-    <head>
-<link rel="icon" href="http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/favicon.ico"/>
+    <link rel="icon" href="https://learning.edureka.co/favicon.ico"/>
     </head>
-<body >
-
-    <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png" height="200px" width="100%"  >
    
-       <div>
+    
+    <html>
+        <head>
+    <link rel="icon" href="http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/favicon.ico"/>
+        </head>
+    <body >
+    
+        <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png" height="200px" width="100%"  >
        
-        <select>
-            <option  selected disabled >Select A City</option><!-- this option would be pre selcted if we add "selected" after option-->
-        
-            <option value ="1" label="HYD" text = "Hyderabad City"> Hyderabad</option><!--In Value/text we cant se it but for hyderabad 
-                the value sent to the seerver would be heyderbad city-->
-            <label for="Hyderabad">HYD</label><br>
-            <option value ="2" label="MUM">Mumbai</option>
-            <option value ="3" label="Aug">Aurangabad</option>
-            <option value ="4" label="Pun" >Pune</option><!--user cant choose this option-->
+           <div>
+           
+            <select>
+                <option  selected disabled >Select A City</option><!-- this option would be pre selcted if we add "selected" after option-->
             
-        </select> 
-        <br>
-        <input type="text" placeholder="Enter your Email here">
-    <br/>
-    
-        <input type="password" placeholder="Enter your password">
-        <br>
-    <input type="date">
-    </br>
-    <input type="time">
-    <br>
-    <input type="color">
-</br>
-<input type="file">
-</br>
-<input type="week"><br>
-<input type="radio">Male
-</br>
-
-<input type="radio">Female<br>
-
-<input type="radio">other</br>
-
-    
-        </div>
-       
+                <option value ="1" label="HYD" text = "Hyderabad City"> Hyderabad</option><!--In Value/text we cant se it but for hyderabad 
+                    the value sent to the seerver would be heyderbad city-->
+                <label for="Hyderabad">HYD</label><br>
+                <option value ="2" label="MUM">Mumbai</option>
+                <option value ="3" label="Aug">Aurangabad</option>
+                <option value ="4" label="Pun" >Pune</option><!--user cant choose this option-->
+                
+            </select> 
+            <br>
+            <input type="text"  size="10" placeholder="Enter your Email here">
+        <br/>
         
+            <input type="password" placeholder="Enter your password">
+            <br>
+        <input type="date">
+        </br>
+        <input type="time">
+        <br>
+        <input type="color">
+    </br>
+    <input type="file">
+    </br>
+    <input type="week"><br>
+    <input type="radio" name="Gender">Male<!--Here we have used the name entity because to select only one option-->
+    <input type="radio" name="Gender">Female
+    <input type="radio" name="Gender">other
+    <input type="checkbox" name="Gender">10th
+    <input type="checkbox"name="Gender">12th
+    <input type="checkbox"name= "Gender">Graduate
+    <br>
+    <input type="button" value="Delte">
+    <button>Create a post</button>
+    <p>
+        The National Aeronautics and Space Administration (NASA /ˈnæsə/) is an independent agency of the US federal government responsible for the civil space program, aeronautics research, and space research.[note 1]
 
-       
-    </body>   
-
-</html>
+NASA was established in 1958, succeeding the National Advisory Committee for Aeronautics (NACA), to give the US space development effort a distinctly civilian orientation, emphasizing peaceful applications in space science.[7][8][9] Since its establishment, most American space exploration efforts have been led by NASA, including the Apollo Moon landing missions, the Skylab space station, and later the Space Shuttle. NASA is supporting the International Space Station and is overseeing the development of the Orion spacecraft, the Space Launch System, Commercial Crew vehicles, and the planned Lunar Gateway space station. The agency is also responsible for the Launch Services Program, which provides oversight of launch operations and countdown management for uncrewed NASA launches.
+NASA's science is focused on better understanding Earth through the Earth Observing System;[10] advancing heliophysics through the efforts of the Science Mission Directorate's Heliophysics Research Program;[11] exploring bodies throughout the Solar System with advanced robotic spacecraft such as New Horizons;[12] and researching astrophysics topics, such as the Big Bang, through the Great Observatories and associated programs.[13]
+    </p>
+        <a href="https://www.google.com/" target="_blank">Go to google</a><!--An anchor tag is a tag that is used to
+        redirect on to another paage using link and here target attribute is used for to opne the link into next tab or else it will 
+    open in the same tab-->
+            </div>
+           
+            
+    
+           
+        </body>   
+    
+    </html>
+    
