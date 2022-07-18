@@ -4,23 +4,31 @@
     </head>
 <body >
 
-    <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png" height="200px" width="100%"  >
+   <a href="https://www.google.com/"> <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png" height="200px" width="100%"  ></a>>
+    <div>e!</div>
+    <div>Find the best cafes and Reasturants</div>
    
        <div>
        
         <select>
-            <option>Select A City</option>
-            <option value ="1">Hyderabad</option>
-            <option value ="2">Mumbai</option>
-            <option value ="3">Aurangabad</option>
-            <option value ="4">Pune</option>
-            </select>
+            <option  selected disabled >Select A City</option><!-- this option would be pre selcted if we add "selected" after option-->
+        
+            <option value ="1" label="HYD" text = "Hyderabad City"> Hyderabad</option><!--In Value/text we cant se it but for hyderabad 
+                the value sent to the seerver would be heyderbad city-->
+            <label for="Hyderabad">HYD</label><br>
+            <option value ="2" label="MUM">Mumbai</option>
+            <option value ="3" label="Aug">Aurangabad</option>
+            <option value ="4" label="Pun" >Pune</option><!--user cant choose this option-->
+            <input type= "text" placeholder="Search for Reasturants" />
+
+            <button>Search</s></button>
+            
+        </select> 
         </div>
+       
+        
 
        
     </body>   
 
 </html>
-<!--Go to that particular page and click on inspect in the head section go to favicon link and copy it and add the link of the that particular wesite in front of it
-for eg the wesite is edureka so we will copy the edureka link that is "https://learning.edureka.co" then add a backslash then paste the
-link infront of it https://learning.edureka.co/favicon.ico"-->
