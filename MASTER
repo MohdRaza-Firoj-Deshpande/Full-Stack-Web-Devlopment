@@ -1,1 +1,26 @@
+<html>
+    <head>
+<link rel="icon" href="http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/favicon.ico"/>
+    </head>
+<body >
 
+    <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png" height="200px" width="100%"  >
+   
+       <div>
+       
+        <select>
+            <option>Select A City</option>
+            <option value ="1">Hyderabad</option>
+            <option value ="2">Mumbai</option>
+            <option value ="3">Aurangabad</option>
+            <option value ="4">Pune</option>
+            </select>
+        </div>
+
+       
+    </body>   
+
+</html>
+<!--Go to that particular page and click on inspect in the head section go to favicon link and copy it and add the link of the that particular wesite in front of it
+for eg the wesite is edureka so we will copy the edureka link that is "https://learning.edureka.co" then add a backslash then paste the
+link infront of it https://learning.edureka.co/favicon.ico"-->
