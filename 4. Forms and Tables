@@ -1,0 +1,93 @@
+<html>
+<head>
+    <body>
+        <div>
+            <form>
+                <label>First name</label>
+                <input type="text">
+                <br>
+                <label>Last name</label>
+                <input type="text">
+                <br>
+                <label>Age</label>
+                <input type="number">
+                <br>
+                <label>Gender</label>
+                <input type="radio" name="Gender"/>Male
+                <input type="radio" name="Gender"/>Female
+                <input type="radio" name="Gender"/>Other
+                <br>
+                <button type="submit">Save</button><button>Reset</button>
+                <br>
+                <br>
+
+            </form>
+       
+            <table border="1">
+            <thead>
+                <th>NAME</th>
+                <th>Price</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Iphone</td>
+                    <td>$399</td>
+                </tr>
+                <tr>
+                    <td>Mack BOOk</td>
+                    <td>$1399</td>
+                </tr>
+                <tr>
+                    <td>Watch </td>
+                    <td>$99</td>
+                </tr>
+                <tr>
+                    <td>I Glases</td>
+                    <td>$429</td>
+                </tr>
+                <tr>
+                    <td>Iphone</td>
+                    <td>$399</td>
+                </tr>
+                       
+            
+            </tbody>
+            </table>
+        </div>
+    </body>
+</head>
+
+</html>
+<!--%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%ROW SPAN AND COLOUM SPAN %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<h2>Cell that spans two rows</h2>
+<p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+</table>
+</body>
+</html>
+
