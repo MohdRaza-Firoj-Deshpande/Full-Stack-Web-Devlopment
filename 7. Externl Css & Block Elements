@@ -1,0 +1,111 @@
+<!--External Style
+    ->If you have multiple web pages which use the same styling
+    ->then you can write the style in a sepreate file
+    ->use that file in all pages you need it
+both internal and external uses selector
+to connect html to css " <link rel="stylesheet" href="./index.css">"-->
+
+
+<!--BOX MODEL 
+        Box Model - It is the digram/model that we get to see when we inspect an element 
+Every Html model has access to 4 properties:
+1.Margin : It is the space between the two adjacent elemnets
+          margin :50 px; - 50 px spacing on all 4 sides
+          margin-top/bottom/left/right:50px; -50 px spacing on the top/bottom/left/right
+          also you can say marigin:30px,20px,40px,45px(That means that top/right/buttom/left)(clockwise)
+2.Padding:Incerase the gap between the content and the border(Edureak and border) same code will be applied here like
+margin and border
+3.Border: 
+    ->border:10px solid blue it will apply border on all four sides
+    ->Border-top/bottom/left/right
+    ->Border-bootom  (This will only underline the -object)
+
+4.Position
+
+
+Note (We can also convert a block elment to a inline elmenet using the inline elment)
+/(We can also convert a inline elment to a block elmenet using the block elment)
+we can also use(Inline block to make them set near each other)
+display: none (TO hide any element,it will not be visibile and will not occupy the space in the screen)
+            (DIMENSIONS)
+display:("run in/Iline- Block")="elment can switch btween Inline and Block"
+         Units of dimension
+         pixel-px
+            -margin:50 px
+            
+            percentage - %
+            -margin :50% (Cover the 50% of the screen)
+
+            viewport: it is the users visible area on the screen
+            -vh : viewport height eg(height:100vh)
+            -vw : viewport width 
+
+            auto,initial, inherit
+            - height :inherit:- inherit the height of the parent element
+            - height :intial: -whatever height is required by the element must be used
+            - height: auto : - height should be automatically calculated based on the various rules
+
+            The Screen is 2d
+             Height:
+                  height:200 px;
+                  min-height:150 px  min heigth cannot be specefied less than the give value
+                  max-height:250 px   max height cannot be specefies more than the max value
+
+             Weidht:
+             Weidht:200 px;
+                  min- Weidht:150 px  min  Weidht cannot be specefied less than the give value
+                  max- Weidht:250 px   max  Weidht cannot be specefies more than the max value
+
+                  Display property
+
+                  inline ement -span,img
+                  block elemnet - div,h1,br,p
+
+-->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <link href="./8index.css" rel="stylesheet" >
+</head>
+
+    
+    <body>
+        <h1>This is the code<h1>
+            <div class="divclass">
+                I am a div
+
+            </div>
+<div class="gh">I am the second div</div>
+
+<span class="span">I am span 1</span>
+<span class="span" >I am span 2</span>
+    </body>
+
+
+</html>
+
+                                                      CSS CODE 
+                                                      
+                                                      
+                                                      
+body{
+    background-color: aqua;
+    border: red;
+}
+.gh{
+    background-color: green;
+}
+.span{
+    background-color: blue;
+    width:400px;
+}
