@@ -1,0 +1,66 @@
+
+
+<!-- "FAV ICON" 
+Fav icon is symbol or label that we get to see in the tab section of the website
+Go to that particular page and click on inspect in the head section go to favicon link and copy it and add the link of the that particular wesite in front of it
+for eg the wesite is edureka so we will copy the edureka link that is "https://learning.edureka.co" then add a backslash then paste the
+link infront of it https://learning.edureka.co/favicon.ico"
+
+<head>
+<link rel="icon" href="https://learning.edureka.co/favicon.ico"/>
+</head>
+"drop down menu Or Select boX"-->
+
+
+<html>
+    <head>
+<link rel="icon" href="http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/favicon.ico"/>
+    </head>
+<body >
+
+    <img src = "https://media.geeksforgeeks.org/wp-content/uploads/20210915115837/gfg3-300x300.png" height="200px" width="100%"  >
+   
+       <div>
+       
+        <select>
+            <option  selected disabled >Select A City</option><!-- this option would be pre selcted if we add "selected" after option-->
+        
+            <option value ="1" label="HYD" text = "Hyderabad City"> Hyderabad</option><!--In Value/text we cant se it but for hyderabad 
+                the value sent to the seerver would be heyderbad city-->
+            <label for="Hyderabad">HYD</label><br>
+            <option value ="2" label="MUM">Mumbai</option>
+            <option value ="3" label="Aug">Aurangabad</option>
+            <option value ="4" label="Pun" >Pune</option><!--user cant choose this option-->
+            
+        </select> 
+        <br>
+        <input type="text" placeholder="Enter your Email here">
+    <br/>
+    
+        <input type="password" placeholder="Enter your password">
+        <br>
+    <input type="date">
+    </br>
+    <input type="time">
+    <br>
+    <input type="color">
+</br>
+<input type="file">
+</br>
+<input type="week"><br>
+<input type="radio">Male
+</br>
+
+<input type="radio">Female<br>
+
+<input type="radio">other</br>
+
+    
+        </div>
+       
+        
+
+       
+    </body>   
+
+</html>
