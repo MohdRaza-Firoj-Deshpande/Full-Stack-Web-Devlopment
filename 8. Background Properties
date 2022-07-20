@@ -1,0 +1,52 @@
+<!---Background Properties-->
+<!---Background repeate = no repaete then it will not repeat the background (repeat X it will repeate
+    only in rigth , same with y it wil be from top to bottom 
+background-attachment: scroll
+background-attachment: fixed  -->
+
+
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+    <body>
+        <h1>This is the code<h1>
+        
+                I am a div
+<div class="new">
+    I am the second sclass
+</div>
+<div>I am the second div</div>
+<div class="raz"></div>
+
+<span class="span">I am span 1</span>
+<span class="span" >I am span 2</span>
+    </body>
+
+
+</html>
+
+
+                                                            CSS CODE
+                                                            .new{
+    
+    height: 100px;
+    width:100px ;
+    background-image: url("Newfolder\backdrop.png") ;
+    background-color: gold;
+}
+.raz{
+    border: 10px solid;
+    height: 100vh;
+     background-image: url(../Newfolder/Dineer.png);
+     border: 10px solid red ;
+     background-attachment: scroll;
+}
+                                                                                                                       
+                                                            
+                                                                                                                        
