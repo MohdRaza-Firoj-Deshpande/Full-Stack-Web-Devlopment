@@ -1,0 +1,32 @@
+<!--Z index 
+the html elmenets whoes z index is higher are more closer to user
+in code if we write z index 1 and other to 0 the the z index 1 will be more closer to us it iued in design of logo-->
+<html>
+    <head>
+        <link rel="stylesheet" href="../Newfolder/10.css">
+    </head>
+        <body>
+            <div class="zindex1"> </div>
+            <div class="zindex2"> </div>
+        </body>
+    
+</html>
+
+                                                                 CSS CODE
+
+
+.zindex1{
+height: 100px;
+width: 100px;
+background-color: blue;
+top: -50px;
+position: relative;
+z-index: 1;
+}
+.zindex2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 255, 106);
+    top: -50px;
+    position: relative;
+}
