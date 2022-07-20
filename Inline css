@@ -1,0 +1,15 @@
+<!-- There are three types of css inline 
+Inline CSS.
+Internal or Embedded CSS.
+External CSS.
+
+
+Inline Css the code is written using style  =  but the backdrop is if we want to change the all colurs 
+then it would take more time/Udate problem/manage/maintain in future-->
+<html>
+    <head><h1 style="color: green; font-size:200px ; background-color: blue; border: indigo;">
+        This is inline CSS</h1>
+        <head>
+        <body></body>
+
+    </html>
