@@ -1,0 +1,31 @@
+<!-- Write styles in one palce But you will apply the style on various html element in body tag
+    Internal styles are used by appling selectors 
+
+    Selectors: should be writen in<style> (1) id selector (uses id) (2)class Selector(create a class) (3)Named selector (4)Grouped selector(h1 h2{font size italic})(5)Universal seletor (*{})
+               ! important - it is used to make it important
+
+               most used id>class>named>universal
+Internal Styles 
+->Styling goes to head tags 
+->Html elements are sepreate in body tag
+->these styles are only in one page/in the page where you write the styles
+
+To create a class .is used to create a class>
+->
+-->
+    <html>
+        
+    <head>
+        <style> 
+            .green-color{color: blue; 
+            font-size: large;
+        background-color: aqua}  
+        </style>
+        <h1>
+        This is inline CSS</h1>
+        <h2 class="green-color">agjbsd</h2>
+        <h3>agjbsd</h3>
+        <head>
+        <body></body>
+
+    </html>
