@@ -1,0 +1,243 @@
+.container-fluid{
+height: 80px;
+margin: 0 0 30px;
+padding: 15px;
+background-color: #ce0505;
+}
+.logo{
+    width: 52px;
+    height: 52px;
+    padding: 1px 10px 4px;
+    background-color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.52;
+    letter-spacing: normal;
+    text-align: center;
+    color: #eb2929;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.create-account{
+    height: 46px;
+    margin: 0 0 0 26px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    background: transparent;
+    color: white; 
+}
+.login-button{ 
+    height: 46px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+    border: none;
+
+}
+.subheading{
+    height: 51px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color:#192f60
+}
+.search-section{
+
+}
+.left-section{
+
+}
+.right-section{
+
+}
+.filter-section{
+    margin-right: 30px;
+    padding:20px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0, 0.16);
+    background-color: #ffff;
+    height: 100%;
+}
+.filter-section-heading{
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60; 
+    margin-bottom: 15px; 
+}
+.filter-section-subheading{
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60; 
+    margin-bottom: 12px;
+    margin-top: 15px;
+
+}
+.location-dropdown{
+    height: 36px;
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: solid 1px #8c96ab;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.cuisine-checkbox{
+
+}
+.cuisine-checkbox-label{
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-bottom: 10px;
+    
+
+}
+.cost-selection{
+    height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-bottom: 15px;
+   
+}
+.result-box{
+    height: 291px;
+    margin-bottom: 30px;
+    padding:   20px;
+    box-shadow: 0 3px 6px 0  rgba(0,0,0, 0.16);
+    background-color: #ffff;
+
+
+}
+.top-section{
+
+}
+.result-image{
+width:105px ;
+height: 120px; ;
+border-radius: 23px ;
+
+}
+.result-right-section{
+    padding-left: 20px;
+}
+.resturant-name{
+    height: 43px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color:#192f60;
+
+}
+.reaturant-loction{
+    height: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;    
+
+}   
+.reaturant-adress {
+    height: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+     
+}
+.bottom-section{
+
+}
+.result-bottom-left{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #636f88;
+}
+.result-bottom-right{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.88;
+        letter-spacing: normal;
+        text-align: left;
+        color: #192f60;
+}
+.page-option     {
+    text-align: center;
+
+}
+.pagination-button{
+        display: inline-block;
+        width: 36px;
+        height: 36px;
+        margin: 0 12px;
+        line-height: 36px;
+        border-radius: 7px;
+        border: solid 1px #8c96ab;
+        background-color: #ffff;
+        text-align: center;
+        cursor: pointer;
+
+}
+.pagination-button:hover{
+    background-color: #8c96ab;
+    color: white;    
+
+}
